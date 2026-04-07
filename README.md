@@ -17,29 +17,30 @@ Azure Portal
 ⚙️ Step-by-Step Implementation
 
 1. Install Azure PowerShell
-Open PowerShell
-Run:
-Install-Module -Name Az -AllowClobber -Scope CurrentUser
+ Open PowerShell
 
-2. Connect to Azure
+2. Run:
+ Install-Module -Name Az -AllowClobber -Scope CurrentUser
+
+3. Connect to Azure
    
-Connect-AzAccount
+ Connect-AzAccount
 
 4. Get Resource Groups
    
-Get-AzResourceGroup
+ Get-AzResourceGroup
 
 6. Get Virtual Machines
    
-Get-AzVM
+ Get-AzVM
 
 8. Get VM Status
    
-Get-AzVM -Status
+ Get-AzVM -Status
 
 10. Get Specific Resource Details
     
-Get-AzResource
+ Get-AzResource
 
 📊 Outcome:
 
