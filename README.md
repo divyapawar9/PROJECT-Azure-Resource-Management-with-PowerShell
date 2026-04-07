@@ -17,12 +17,14 @@ Azure Portal
 ⚙️ Step-by-Step Implementation
 
 1. Install Azure PowerShell
+2. 
  Open PowerShell
 
-2. Run:
+3. Run:
+   
  Install-Module -Name Az -AllowClobber -Scope CurrentUser
 
-3. Connect to Azure
+5. Connect to Azure
    
  Connect-AzAccount
 
