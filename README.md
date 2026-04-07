@@ -3,7 +3,7 @@
 
 📌 Project Title
 
-Azure Resource Management Basics
+Azure Resource Management 
 
 📖 Overview
 
@@ -22,18 +22,23 @@ Run:
 Install-Module -Name Az -AllowClobber -Scope CurrentUser
 
 2. Connect to Azure
+   
 Connect-AzAccount
 
-3. Get Resource Groups
+4. Get Resource Groups
+   
 Get-AzResourceGroup
 
-4. Get Virtual Machines
+6. Get Virtual Machines
+   
 Get-AzVM
 
-5. Get VM Status
+8. Get VM Status
+   
 Get-AzVM -Status
 
-6. Get Specific Resource Details
+10. Get Specific Resource Details
+    
 Get-AzResource
 
 📊 Outcome:
