@@ -17,8 +17,7 @@ Azure Portal
 ⚙️ Step-by-Step Implementation
 
 1. Install Azure PowerShell
-2. 
- Open PowerShell
+2. Open PowerShell
 
 3. Run:
    
